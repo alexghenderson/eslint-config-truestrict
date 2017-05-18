@@ -1,0 +1,31 @@
+{
+  "name": "eslint-config-truestrict",
+  "version": "1.0.0",
+  "description": "Truly strict eslint config for masochists",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel ./src -d ./dist",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexghenderson/eslint-config-truestrict.git"
+  },
+  "author": "Alex Henderson",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.4.0"
+  },
+  "homepage": "https://github.com/alexghenderson/eslint-config-truestrict.git#readme",
+  "dependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint-plugin-filenames": "^1.2.0",
+    "eslint-plugin-lodash-fp": "^2.1.3",
+    "eslint-plugin-react": "^7.0.1"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
+}
