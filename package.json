@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-truestrict",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Truly strict eslint config for masochists",
   "main": "dist/index.js",
   "scripts": {
